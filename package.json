@@ -1,0 +1,25 @@
+{
+  "name": "giwa-sepolia-bot",
+  "version": "1.0.0",
+  "description": "Bot Node.js untuk interaksi dengan smart contract Giwa Sepolia dengan fitur Auto-Backup Cloudinary.",
+  "main": "giwaBot.js",
+  "scripts": {
+    "start": "node giwaBot.js",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "ethers",
+    "blockchain",
+    "ethereum",
+    "giwa",
+    "sepolia"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  }
+}
